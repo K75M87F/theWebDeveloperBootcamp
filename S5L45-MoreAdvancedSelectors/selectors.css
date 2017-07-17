@@ -1,0 +1,44 @@
+li {
+  ;
+}
+
+.hello {
+  ;
+}
+
+#name {
+  ;
+}
+
+* {
+  border: 1px solid lightgrey;
+}
+
+/*Below selects every a tag inside of an li*/
+li a {
+  color: red;
+}
+
+/*Below selects elements that come after another element (e.g. all ul that come after an h4)*/
+h4 + ul {
+  border: 4px solid red;
+}
+
+/*Below selects any element based off of an attribute (e.g. turn all links where href=google one color)*/
+a[href="http://www.google.com"] {
+  background: blue;
+}
+
+input[type="checkbox"] {
+  background: blue;
+}
+
+/*Below will select the # of given type (e.g. the 3rd of ul)*/
+ul:nth-of-type(3) {
+  background: purple;
+}
+
+/*Below will select EVERY even # of given type (e.g. 2,4,6,8th of li)*/
+li:nth-child(even) {
+  background: pink;
+}

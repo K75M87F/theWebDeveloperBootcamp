@@ -1,0 +1,28 @@
+/*Type Selectors*/
+li {
+
+}
+
+li a {
+
+}
+
+li + a {
+
+}
+
+/*Class, Attribute, Pseudo-Class selectors*/
+.hello {
+
+}
+
+input[type="text"] {
+
+}
+
+a:hover {
+
+}
+
+/*ID Selectors*/
+#hello
