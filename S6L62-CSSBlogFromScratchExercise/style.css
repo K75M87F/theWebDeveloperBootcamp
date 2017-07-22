@@ -1,0 +1,31 @@
+body {
+  border: 20px solid #bdc3c7;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 2% 20% 2% 20%;
+  padding: 20px;
+}
+
+.date {
+  color: #3498db;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+h2 {
+  color: #2c3e50;
+  font-weight: 800;
+}
+
+.blogPost {
+  border-bottom: 2px solid #f1f1f1;
+}
+
+p:nth-of-type(2) {
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+}
+
+p {
+  font-weight: 600;
+}
